@@ -6,6 +6,3 @@ as seen in the first file in this repo.
 Here is my [Flutterwave appreciation Tweet URL]( https://twitter.com/GabeUzowulu/status/1164263798129250304)
 
 And here is my [Lucid Blog Post](https://lucid.blog/gabrieluzowulu/post/1566616585)
-
-### PS:
-Pls ignore the "img" folder. It was pushed to the repo mistakenly.  All images in the HTML file were added as a URL from my CDN network and not sourced from the img folder. Thanks
