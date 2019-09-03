@@ -7,5 +7,5 @@ Here is my [Flutterwave appreciation Tweet URL](https://twitter.com/GabeUzowulu/
 
 And here is my [Lucid Blog Post](https://lucid.blog/gabrieluzowulu/post/1566616585)
 
-## This is a branch of my original repository
+## ReadMe update
  [Here is another Lucid blog post about CSS](https://lucid.blog/gabrieluzowulu/post/css-is-bae-3fa)
