@@ -151,10 +151,49 @@
     <!-- Buttons-->
 
     <div id="cv-button">
-            <button type="button"> Print <br>CV</button>
-            <button type="button">Recommend CV</button>
+            
+            <button type="button"> <a href="asset/Gabe Resume.pdf" download><b>Download CV</b></a></button>
     </div>
     <br> <br> <br>
+
+    <!--Here lies my contact form with JS-->
+
+    <div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="container_contact">  
+                <form id="contact-form">
+                  <h3>Wanna reach me?.</h3>
+                  <h4>Fill this form and we will reply you as soon asa possible</h4>
+                  <span id="close-btn">&times;</span>
+
+                  <fieldset>
+                    <input type="text" id="title" required autofocus placeholder="Message Title">
+                    
+                  </fieldset>
+
+                  
+                  <fieldset>
+                    <input type="text" id="name" required minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+            <h2>Fill My Contact Form</h2>
+        </div>
+        <script src= "contactForm.js"></script>
 
 
     <!-- Footer Section-->
@@ -164,7 +203,8 @@
         <b>MY SOCIAL MEDIA HANDLES:</b>&nbsp;&nbsp;&nbsp;
         <a href="https://facebook.com/gabrieluzowulu" target= _blank> <img src="img/facebook_icon.png" width= "23" height= "23" alt="Facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://twitter.com/gabeuzowulu" target=_blank><img src="img/twitter_icon.png" width= "24" height= "24" alt="Twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/GabrielUzowulu" target=_blank> <img src="img/GitHub_icon.png" width= "28" height= "28" alt="GitHub"></a>
+        <a href="https://github.com/GabrielUzowulu" target=_blank> <img src="img/GitHub_icon.png" width= "30" height= "30" alt="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://wa.me/2347069754036" target=_blank><img src="img/whatsapp_icon.png" width= "24" height= "24" alt="Twitter"></a>
         <!--
         <a href="fb.com/gabrieluzowulu" target= _blank></a> <img src="https://res.cloudinary.com/gabeuzowulu/image/upload/v1566574917/facebook_icon_mni3w1.png" width= "20" height= "20" alt="facebook">  </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="twitter.com/gabeuzowulu" target=_blank><img src="https://res.cloudinary.com/gabeuzowulu/image/upload/v1566574917/twitter_icon_wahjvj.png" width= "20" height= "20" alt="Twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
